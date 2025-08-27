@@ -1,0 +1,26 @@
+NAME 			|WxH| short description
+buttonLong_beige 	|190x49| the button for everything, it gets stretched
+HighlightSquare 	|178x178| higlight on selected cards and don
+Arrow 			|60x30| the red arrow showing who attacks and where
+AttackArrow 		|200x100| the wide power is displayed over
+panel_beige 		|100x100| background for chosing game and some labels
+Background 		|32x32| chat background
+YouLose			|391x90| you lose screen
+YouWin 			|377x88| you win screen
+Checkmark 		|64x64| checkmark in deck builder and timed lobby
+ClydeBanner 		|1500x500| ad banner -transparency doesnt work
+ImpactBanner 		|1500x500| ad banner -transparency doesnt work
+CrossBanner 		|1000x400| ad banner 
+DropdownArrow 		|64x64| arrow on all dropdowns
+InputFieldBackground 	|32x32| just for the deck name
+Launch_bounty 		|500x133| -transparency doesnt work
+MatchHistory		|500x133| -transparency doesnt work
+TCGMM_discord 		|488x139|  -transparency doesnt work
+PatronAsk		|1080x270| /
+UIMask 			|32x32| deck editor background for where you pick cards from
+UISprite 		|32x32| dropdowns, checkboxes and game select buttons
+audioOff 		|50x50| /
+audioOn 		|50x50| /
+musicOff 		|50x50| /
+musicOn 		|50x50| /
+toppng.com-download-blue-glow-effect-1024x1024 |835x835| the glow effect for prio - it has a blue filter over :3
