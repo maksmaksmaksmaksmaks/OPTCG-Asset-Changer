@@ -4,6 +4,7 @@ HighlightSquare 	|178x178| higlight on selected cards and don
 Arrow 			|60x30| the red arrow showing who attacks and where
 AttackArrow 		|200x100| the wide power is displayed over
 panel_beige 		|100x100| background for chosing game and some labels
+arrow_beige    |100x100| arrows for checking trash
 Background 		|32x32| chat background
 YouLose			|391x90| you lose screen
 YouWin 			|377x88| you win screen
