@@ -45,7 +45,7 @@ You can just run the .exe or install UnityPy and run the script yourself.
 #### Important Notes
 
 - The tool will save your original assets file in the backup folder
-
+- To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder.
 
 
 ---
