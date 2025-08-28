@@ -1,7 +1,6 @@
 # OPTCG Asset Changer
 
 A tool for modifying textures in the OPTCG sim
-
 ## Instructions
 
 ### 1. Setup
