@@ -10,6 +10,7 @@ Your Game Folder/
 ├── OPTCGSim.exe
 └── AssetChanger/
     ├── images/
+    ├── changes.txt
     ├── AssetChanger.exe
     └── AssetChanger.py
 ```
