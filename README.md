@@ -30,20 +30,23 @@ UnityAssetName: NewImage.png
 **Example:**
 ```
 # UI Elements
-buttonLong_beige: my_custom_button.png
-Background: new_background.png
-YouWin: victory_screen.png
-
-# You can reuse the same image for multiple assets
-Arrow: my_arrow.png
-AttackArrow: my_arrow.png
+buttonLong_beige: buttonLong_beige_new
+Background: Background.png
+YouWin: YouWin_GOD_SLAIN.png
 ```
 
 ### 4. Run the Tool
 You can just run the .exe or install UnityPy and run the script yourself.
-## Important Notes
+
+### 5. Link to latest release
+- [Release](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+
+
+#### Important Notes
 
 - The tool will save your original assets file in the backup folder
+
+
 
 ---
 
