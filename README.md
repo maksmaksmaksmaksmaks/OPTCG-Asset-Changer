@@ -30,7 +30,7 @@ UnityAssetName: NewImage.png
 **Example:**
 ```
 # UI Elements
-buttonLong_beige: buttonLong_beige_new
+buttonLong_beige: buttonLong_beige_new.png
 Background: Background.png
 YouWin: YouWin_GOD_SLAIN.png
 ```
