@@ -36,7 +36,7 @@ YouWin: YouWin_GOD_SLAIN.png
 ```
 
 ### 4. Run the Tool
-You can just run the .exe or install UnityPy and run the script yourself.
+You can just run the .exe or install UnityPy and run the script yourself
 
 ### 5. Link to latest release
 - [Release](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
@@ -45,7 +45,7 @@ You can just run the .exe or install UnityPy and run the script yourself.
 #### Important Notes
 
 - The tool will save your original assets file in the backup folder
-- To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder.
+- To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
 
 
 ---
