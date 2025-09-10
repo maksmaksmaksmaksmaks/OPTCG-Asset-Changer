@@ -85,6 +85,8 @@ def load_replacement_images():
         image_path = Path(IMAGES_FOLDER) / image_file
         try:
             img = Image.open(image_path)
+            if img.mode != 'RGBA':
+                img = img.convert('RGBA')
             images[asset_name] = img
             print(f"Loaded {image_file} ({img.size}) for asset '{asset_name}'")
         except Exception as e:
