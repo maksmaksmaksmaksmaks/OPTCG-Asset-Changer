@@ -51,7 +51,7 @@ Press the green button at the bottom to make changes
 ---
 
 ### 5. Link to latest release
-- [Release](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+- [Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
 
 ---
 
