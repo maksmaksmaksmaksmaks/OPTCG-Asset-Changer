@@ -1,55 +1,61 @@
 # OPTCG Asset Changer
 
 A tool for modifying textures in the OPTCGSim
-<br>[Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
-<br>[Examples](Examples/Examples.md)
-## Instructions
 
-### 1. Setup
+[Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+[Examples](images/Examples/Examples.md)
+---
+# Instructions
+
+---
+
+## 1. Setup
 Place the `AssetChanger` folder next to your `OPTCGSim.exe` file:
 ```
 Your Game Folder/
 ├── OPTCGSim.exe
 └── AssetChanger/
-    ├── images/
-    ├── changes.txt
-    ├── AssetChanger.exe
-    └── AssetChanger.py
+    └── AssetChangerGUI.exe
 ```
+---
+## 2. Instructions for use
+### 1. Run the AssetChangerGUI.exe
+The first time it is going to create a backup and some folders
 
-### 2. Add Your Images
-- Put your custom images in the `images` folder
-- **Important**: Make sure they are the proper size
-- Check the required sizes in the reference text file
+---
 
-### 3. Configure Changes
-Edit the `changes.txt` file using this format:
-```
-# Comments start with #
-UnityAssetName: NewImage.png
-```
+### 2. Select what you want to change
+Pick an asset to change on the left side
+<br>![Asset Picking List](images/AssetSelection.png)
+<br>Your selected asset shows up on the right
+<br>![Selection Menu](images/ImageSelectionMenu.png)
+---
 
-**Example:**
-```
-# UI Elements
-buttonLong_beige: buttonLong_beige_new.png
-Background: Background.png
-YouWin: YouWin_GOD_SLAIN.png
-```
+### 3. Pick your images
+Open the explorer with the button and pick your image<br>
+It will show up on the preview 
+![ImagePreview](images/ImagePreview.png)<br>
+Repeat the process for all the assets you want to change
+---
 
-### 4. Run the Tool
-You can just run the .exe or install UnityPy and run the script yourself
+### 4. Make changes
+Press the green button at the bottom to make changes
+<br>All the changes/problems will show up in the console
+<br>![img_.png](img.png)
+
+---
 
 ### 5. Link to latest release
 - [Release](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
 
+---
 
 #### Important Notes
 
 - The tool will save your original assets file in the backup folder
 - To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
+- [instructions for manual use](/OLD_instrucitons.md)
 - Any problems or questions? Text me on discord ```praprotnikova4``` 
-
 
 ---
 

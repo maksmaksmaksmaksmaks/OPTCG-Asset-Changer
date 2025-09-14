@@ -1,2 +1,2 @@
-# Texture name : png name
 buttonLong_beige : buttonLong_beigeNEW.png
+

@@ -1,0 +1,44 @@
+## Instructions
+### 1. Setup
+Place the `AssetChanger` folder next to your `OPTCGSim.exe` file:
+```
+Your Game Folder/
+├── OPTCGSim.exe
+└── AssetChanger/
+    ├── images/
+    ├── changes.txt
+    ├── AssetChanger.exe /.py
+    └── AssetChanger.py
+```
+
+### 2. Add Your Images
+- Put your custom images in the `images` folder
+- ~~**Important**: Make sure they are the proper size~~ No longer needed
+
+### 3. Configure Changes
+Edit the `changes.txt` file using this format:
+**Example:**
+```
+# UI Elements
+buttonLong_beige: buttonLong_beige_new.png
+Background: Background.png
+YouWin: YouWin_GOD_SLAIN.png
+```
+
+### 4. Run the Tool
+You can just run the .exe or install UnityPy and run the script yourself
+
+### 5. Link to latest release
+- [Release](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+
+
+#### Important Notes
+
+- The tool will save your original assets file in the backup folder
+- To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
+- Any problems or questions? Text me on discord ```praprotnikova4``` 
+
+
+---
+
+**make it look pretty :3**  

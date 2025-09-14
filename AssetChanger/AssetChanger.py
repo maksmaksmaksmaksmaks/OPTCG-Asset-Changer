@@ -147,7 +147,7 @@ def modify_multiple_textures(input_path, output_path, replacement_images):
                 data.image = replacement_img
                 data.save()
                 modified_count += 1
-                print(f"Replaced {asset_name}")
+                # print(f"Replaced {asset_name}")
 
             except Exception as e:
                 print(f"*** Failed to replace {asset_name}: {e}")
@@ -172,7 +172,7 @@ def modify_multiple_textures(input_path, output_path, replacement_images):
 
 def main():
     global TEXTURE_MAPPINGS
-    print("Unity Multi-Texture Replacement Tool")
+    # print("Unity Multi-Texture Replacement Tool")
     print("=" * 40)
     primary_check()
     changes_check()
@@ -224,6 +224,8 @@ def main():
     except Exception as e:
         print(f"\n*** Error: {e}")
         print(f"Original file unchanged")
+
+    print("=" * 40)
 
 
 if __name__ == "__main__":

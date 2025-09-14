@@ -41,7 +41,7 @@ class ItemEditor:
 
         self.root = root
         self.root.title("OPTCGSim Asset-Changer")
-        self.root.geometry("600x500")
+        self.root.geometry("700x500")
 
         self.items = [
             Asset("buttonLong_beige", 49, 190, "the button for everything, it gets stretched"),
@@ -92,7 +92,7 @@ class ItemEditor:
         listbox_frame = tk.Frame(left_frame)
         listbox_frame.pack(fill='both', expand=True)
 
-        self.listbox = tk.Listbox(listbox_frame, selectmode='single', width=20)
+        self.listbox = tk.Listbox(listbox_frame, selectmode='single', width=35)
         scrollbar = tk.Scrollbar(listbox_frame, orient='vertical', command=self.listbox.yview)
         self.listbox.config(yscrollcommand=scrollbar.set)
 
@@ -112,7 +112,7 @@ class ItemEditor:
 
         # Populate listbox
         for asset in self.items:
-            self.listbox.insert('end', f"{asset.name}: {'Unchanged' if asset.path == '' else asset.path}")
+            self.listbox.insert('end', f"{asset.name}: {'-' if asset.path == '' else asset.path}")
 
         self.listbox.pack(side='left', fill='both', expand=True)
         scrollbar.pack(side='right', fill='y')
@@ -175,6 +175,8 @@ class ItemEditor:
 
         button = tk.Button(top_frame, text=f"Pick an image", command=self.get_image)
         button.pack(side='left')
+        button = tk.Button(top_frame, text=f"Reset", command=self.reset_image)
+        button.pack(side='left')
 
         # print(f"images/{self.current_path.get()}")
         bottom_frame = tk.Frame(self.edit_frame)
@@ -219,7 +221,7 @@ class ItemEditor:
     def refresh_listbox(self):
         self.listbox.delete(0, tk.END)
         for asset in self.items:
-            self.listbox.insert('end', f"{asset.name}: {'Unchanged' if asset.path == '' else asset.path}")
+            self.listbox.insert('end', f"{asset.name}: {'-' if asset.path == '' else asset.path}")
 
     def get_image(self):
         imgpath = askopenfilename(title=f"{self.current_item.name} |{self.current_item.w}x{self.current_item.h}|",
@@ -242,6 +244,9 @@ class ItemEditor:
 
         print(f"{self.current_path.get()} -> {self.current_item.name}")
 
+    def reset_image(self):
+        self.current_path.set("")
+        self.save_changes()
     def change_assets(self):
         changes = ""
         for asset in self.items:
