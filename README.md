@@ -22,17 +22,25 @@ The first time it is going to create a backup and some folders
 ---
 
 ### 2. Select what you want to change
+
 Pick an asset to change on the left side
-<br>![Asset Picking List](images/AssetSelection.png)
-<br>Your selected asset shows up on the right
-<br>![Selection Menu](images/ImageSelectionMenu.png)
+
+![Asset Picking List](images/AssetSelection.png)
+
+Your selected asset shows up on the right
+
+![Selection Menu](images/ImageSelectionMenu.png)
 ---
 
 ### 3. Pick your images
-Open the explorer with the button and pick your image<br>
+Open the explorer with the button and pick your image
+
 It will show up on the preview 
-![ImagePreview](images/ImagePreview.png)<br>
+
+![ImagePreview](images/ImagePreview.png)
+
 Repeat the process for all the assets you want to change
+
 ---
 
 ### 4. Make changes
