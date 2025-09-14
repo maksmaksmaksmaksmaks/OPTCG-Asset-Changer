@@ -2,8 +2,8 @@
 
 A tool for modifying textures in the OPTCGSim
 
-[Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
-[Examples](images/Examples/Examples.md)
+- [Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+- [Examples](images/Examples/Examples.md)
 ---
 # Instructions
 ## 1. Setup
