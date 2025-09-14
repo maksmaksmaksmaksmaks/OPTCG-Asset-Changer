@@ -6,9 +6,6 @@ A tool for modifying textures in the OPTCGSim
 [Examples](images/Examples/Examples.md)
 ---
 # Instructions
-
----
-
 ## 1. Setup
 Place the `AssetChanger` folder next to your `OPTCGSim.exe` file:
 ```
