@@ -56,7 +56,7 @@ Press the green button at the bottom to make changes
 ---
 
 #### Important Notes
-
+- 1st time launching the sim after changes takes a bit longer
 - The tool will save your original assets file in the backup folder
 - To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
 - [instructions for manual use](/OLD_instrucitons.md)
