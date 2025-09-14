@@ -22,5 +22,6 @@
 
 ## 5. Run it
 - Double-click the newly created ```AssetChangerGUI.exe```
+- It will get flagged as unsafe since i am an unknown publisher (More info -> Run anyway)
 
 
