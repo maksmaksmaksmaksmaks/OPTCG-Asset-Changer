@@ -47,6 +47,7 @@ Repeat the process for all the assets you want to change
 ### 4. Make changes
 - Press the green button at the bottom to make changes
 - If everything worked you will get a popup like this
+
 ![img.png](images/Success.png)
 
 ---
