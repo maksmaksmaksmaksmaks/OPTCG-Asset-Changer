@@ -41,7 +41,7 @@ Repeat the process for all the assets you want to change
 ### 4. Make changes
 Press the green button at the bottom to make changes
 <br>All the changes/problems will show up in the console
-<br>![img_.png](img.png)
+<br>![ConsoleResult](images/ConsoleResult.png)
 
 ---
 
