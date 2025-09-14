@@ -57,7 +57,7 @@ Repeat the process for all the assets you want to change
 ---
 
 #### Important Notes
-- There is a good chance windows defender will flag it as a virus (More info -> Run anyway)
+- It will get flagged as unsafe since i am an unknown publisher (More info -> Run anyway)
 - 1st time launching the sim after changes takes a bit longer
 - The tool will save your original assets file in the backup folder
 - To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
