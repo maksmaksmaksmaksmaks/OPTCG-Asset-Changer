@@ -3,7 +3,7 @@
 A tool for modifying textures in the OPTCGSim
 
 - [Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
-- [Examples](Examples.md)
+- [Examples](markdowns/Examples.md)
 ---
 # Instructions
 ## 1. Setup
@@ -13,7 +13,7 @@ Your Game Folder/
 ├── OPTCGSim.exe
 └── AssetChangerGUI.exe
 ```
-[Detailed instructions](Detailed.md)
+[Detailed instructions](markdowns/Detailed.md)
 
 ---
 ## 2. Instructions for use
@@ -57,10 +57,11 @@ Repeat the process for all the assets you want to change
 ---
 
 #### Important Notes
+- There is a good chance windows defender will flag it as a virus (More info -> Run anyway)
 - 1st time launching the sim after changes takes a bit longer
 - The tool will save your original assets file in the backup folder
 - To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
-- [instructions for manual use](/OLD_instrucitons.md)
+- [instructions for manual use](/markdowns/OLD_instrucitons.md)
 - Any problems or questions? dm me on discord ```praprotnikova4``` 
 
 ---
