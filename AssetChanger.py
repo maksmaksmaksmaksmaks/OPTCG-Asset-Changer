@@ -2,7 +2,7 @@ from pathlib import Path
 import UnityPy
 from PIL import Image
 
-# pyinstaller --onefile --collect-all UnityPy --collect-all archspec TESTING_FOLDER/AssetChanger/AssetChanger.py
+# pyinstaller --onefile --collect-all UnityPy --collect-all archspec TESTING_FOLDER/AssetChanger.py
 
 
 def primary_check():

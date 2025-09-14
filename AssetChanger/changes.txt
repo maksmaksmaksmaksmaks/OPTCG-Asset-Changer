@@ -1,2 +1,0 @@
-buttonLong_beige : buttonLong_beigeNEW.png
-

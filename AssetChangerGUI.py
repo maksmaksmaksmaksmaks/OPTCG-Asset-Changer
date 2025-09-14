@@ -7,7 +7,7 @@ from tkinter.filedialog import askopenfilename
 import AssetChanger
 
 
-# pyinstaller --onefile --collect-all UnityPy --collect-all archspec TESTING_FOLDER/AssetChanger/AssetChangerGUI.py
+# pyinstaller --onefile --collect-all UnityPy --collect-all archspec TESTING_FOLDER/AssetChangerGUI.py
 
 
 class Asset:
@@ -100,6 +100,7 @@ class ItemEditor:
         if os.path.isfile('changes.txt'):
             with open('changes.txt', 'r') as f:
                 lines = f.readlines()
+                print(lines)
             for line in lines:
                 if line[0] == '#':
                     continue
@@ -262,8 +263,13 @@ class ItemEditor:
         print("\n")
         messagebox.showinfo("Finished", "Asset changer finished, if there are any problems check what the console says")
 
-
 if __name__ == "__main__":
+
+    #so it fakes running from the folder
+    if not os.path.isdir("AssetChanger"):
+        os.mkdir("AssetChanger")
+    os.chdir("AssetChanger")
+
     root = tk.Tk()
     app = ItemEditor(root)
     root.mainloop()
