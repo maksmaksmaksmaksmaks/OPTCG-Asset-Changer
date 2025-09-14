@@ -97,7 +97,7 @@ def load_replacement_images():
             images[asset_name] = img
             # print(f"Loaded {image_file} ({img.size}) for asset '{asset_name}'")
         except Exception as e:
-            print(f"*** Failed to load {image_file}: {e}")
+            raise Exception(f"*** Failed to load {image_file}: {e}")
             return None
 
     return images
@@ -150,7 +150,7 @@ def modify_multiple_textures(input_path, output_path, replacement_images):
                 # print(f"Replaced {asset_name}")
 
             except Exception as e:
-                print(f"*** Failed to replace {asset_name}: {e}")
+                raise Exception(f"*** Failed to replace {asset_name}: {e}")
         else:
             print(f"*** Asset '{asset_name}' not found in Unity file")
 
@@ -222,7 +222,7 @@ def main():
 
 
     except Exception as e:
-        print(f"\n*** Error: {e}")
+        raise Exception(f"\n*** Error: {e}")
         print(f"Original file unchanged")
 
     print("=" * 40)

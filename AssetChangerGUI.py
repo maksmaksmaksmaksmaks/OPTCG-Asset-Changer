@@ -258,10 +258,13 @@ class ItemEditor:
             f.write(changes)
 
         # print(changes)
-        time.sleep(1)
-        AssetChanger.main()
-        print("\n")
-        messagebox.showinfo("Finished", "Asset changer finished, if there are any problems check what the console says")
+        try:
+            AssetChanger.main()
+        except Exception as e:
+            messagebox.showerror(e.__str__())
+        else:
+            print("\n")
+            messagebox.showinfo("Finished", "Changed successfully!")
 
 if __name__ == "__main__":
 

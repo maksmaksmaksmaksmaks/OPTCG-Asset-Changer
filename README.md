@@ -3,17 +3,18 @@
 A tool for modifying textures in the OPTCGSim
 
 - [Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
-- [Examples](images/Examples/Examples.md)
+- [Examples](Examples.md)
 ---
 # Instructions
 ## 1. Setup
-Place the `AssetChanger` folder next to your `OPTCGSim.exe` file:
+Place the `AssetChangerGUI.exe` next to your `OPTCGSim.exe` file:
 ```
 Your Game Folder/
 ├── OPTCGSim.exe
-└── AssetChanger/
-    └── AssetChangerGUI.exe
+└── AssetChangerGUI.exe
 ```
+[Detailed instructions](Detailed.md)
+
 ---
 ## 2. Instructions for use
 ### 1. Run the AssetChangerGUI.exe
@@ -44,9 +45,9 @@ Repeat the process for all the assets you want to change
 ---
 
 ### 4. Make changes
-Press the green button at the bottom to make changes
-<br>All the changes/problems will show up in the console
-<br>![ConsoleResult](images/ConsoleResult.png)
+- Press the green button at the bottom to make changes
+- If everything worked you will get a popup like this
+![img.png](images/Success.png)
 
 ---
 
@@ -60,7 +61,7 @@ Press the green button at the bottom to make changes
 - The tool will save your original assets file in the backup folder
 - To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
 - [instructions for manual use](/OLD_instrucitons.md)
-- Any problems or questions? Text me on discord ```praprotnikova4``` 
+- Any problems or questions? dm me on discord ```praprotnikova4``` 
 
 ---
 
