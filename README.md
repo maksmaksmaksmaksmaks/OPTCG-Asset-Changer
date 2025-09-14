@@ -2,8 +2,8 @@
 
 A tool for modifying textures in the OPTCGSim
 
-[Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
-[Examples](images/Examples/Examples.md)
+- [Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+- [Examples](images/Examples/Examples.md)
 ---
 # Instructions
 ## 1. Setup
@@ -51,12 +51,12 @@ Press the green button at the bottom to make changes
 ---
 
 ### 5. Link to latest release
-- [Release](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
+- [Download](https://github.com/maksmaksmaksmaksmaks/OPTCG-Asset-Changer/releases)
 
 ---
 
 #### Important Notes
-
+- 1st time launching the sim after changes takes a bit longer
 - The tool will save your original assets file in the backup folder
 - To revert all changes you need to take the ```sharedassets1.assets``` from ```BACKUP_ASSETS``` and put it into the ```OPTCGSim_Data``` folder
 - [instructions for manual use](/OLD_instrucitons.md)
