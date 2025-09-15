@@ -7,7 +7,7 @@ from tkinter.filedialog import askopenfilename
 import AssetChanger
 
 
-# pyinstaller --onefile --collect-all UnityPy --collect-all archspec TESTING_FOLDER/AssetChangerGUI.py
+# pyinstaller --onedir --collect-all UnityPy --collect-all archspec TESTING_FOLDER/AssetChangerGUI.py
 
 
 class Asset:
@@ -268,10 +268,10 @@ class ItemEditor:
 
 if __name__ == "__main__":
 
-    #so it fakes running from the folder
-    if not os.path.isdir("AssetChanger"):
-        os.mkdir("AssetChanger")
-    os.chdir("AssetChanger")
+    # #so it fakes running from the folder
+    # if not os.path.isdir("AssetChanger"):
+    #     os.mkdir("AssetChanger")
+    # os.chdir("AssetChanger")
 
     root = tk.Tk()
     app = ItemEditor(root)
